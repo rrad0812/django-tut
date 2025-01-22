@@ -22,7 +22,7 @@ admin.site.site_title = "Django Tutor"
 admin.site.index_title = "Django Tutor"
 
 urlpatterns = [
-#    path("polls/", include("polls.urls")),
+    path("polls/", include("polls.urls")),
     path('admin/', admin.site.urls),
 ]
 
